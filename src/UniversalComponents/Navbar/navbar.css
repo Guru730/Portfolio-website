@@ -1,0 +1,40 @@
+.navbar-wrapper{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links-wrapper{
+    flex-direction: row;
+    list-style: none;
+    font-size: 7px;
+    font-weight: 600;
+    font-family: 'text-font';
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+
+}
+
+
+.navbar-link-wrapper{
+    margin: auto 5px;
+    width: 100px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(95, 93, 93);
+}
+
+
+
+
+
+

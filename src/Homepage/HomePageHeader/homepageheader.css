@@ -1,0 +1,57 @@
+
+.home-page-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.home-page-header-content{
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+    
+}
+
+
+
+.home-page-header-heading {
+    font-size: 34px;
+    font-family: 'text-font';
+    font-weight: 800;  
+    letter-spacing: 2px;
+
+}
+
+
+
+.home-page-header-sub-heading-text-wrapper{
+    margin: 40px 0px;
+    font-size: 12px;
+    font-family: 'text-font';
+    color: grey;
+    width: 70%;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+
+
+.home-page-header-illustration-wrapper{
+    width: 43%;
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+    
+}
+
+.home-page-header-illustration{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+

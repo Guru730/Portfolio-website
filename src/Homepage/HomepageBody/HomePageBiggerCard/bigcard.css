@@ -1,0 +1,137 @@
+.flip-card {
+    background-color: transparent;
+    width: 50vw;
+    height: 35vh;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+     transform: rotateY(20deg);
+ 
+  }
+
+
+  .flip-card-front:hover .mobile-svg{
+         transform: scale(1.1);
+         transition: 0.4s;
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: rgb(2, 216, 253);
+    border-radius: 1vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+
+.right-column-wrapper{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    background-color: #3906d1;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+}  
+
+
+
+.card-right-column-text-heading-wrapper{
+    width: 20vw;
+    height: 30%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+
+
+.card-right-column-text-heading {
+    font-size: 8px;
+    color: white;
+    display: block;
+    margin-left: 10px;
+}
+
+
+
+.card-ipad-svg-wrapper{
+    width: 50%;
+    height: 100%;
+}
+
+.mobile-svg {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 40%;
+    bottom: -30%;
+}
+
+
+.flip-card:hover .right-column-wrapper{
+    background-color: rgb(21, 21, 122);
+}
+
+
+.flip-card:hover  .flip-card-front {
+    background-color: rgb(7, 150, 155);
+}
+
+
+
+
+
+.card-right-column-text-wrapper{
+    width: 30%;
+    height: 50%;
+    font-family: 'text-font';
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+
+
+.card-right-column-text-heading-wrapper{
+    font-size: 7px;
+    color: white;
+    font-family: 'text-font';
+}
+
+
+.card-right-column-text {
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    
+}
+
