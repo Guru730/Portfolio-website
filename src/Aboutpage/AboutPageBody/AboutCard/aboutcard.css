@@ -7,6 +7,13 @@
     border-radius: 3vw 0px 0px 3vw;
 }
 
+.about-page-card-inner-card-wrapper{
+    width: 100%; 
+
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .about-page-card-inner-card{
     width: 50vw;
@@ -17,3 +24,101 @@
     box-shadow: 2px 2px 4px rgba(33, 31, 37, 0.658);
 }
 
+
+
+
+
+
+.about-page-card-first-column-heading{
+    font-size: 20px;
+    font-family: 'text-font';
+    margin: 1vw auto;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+
+
+.about-page-card-right-side {
+    width: 15vw;
+    height: 100%;
+    font-size: 12px;
+    transform: translateX(-150%);
+    color: #fff;
+    font-family: 'text-font';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+.about-page-card-column-heading{
+    font-size: 20px;
+    font-family: 'text-font';
+    margin: 1vw auto;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+
+
+
+
+.about-page-card-bottom-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 50vw;
+    margin: 0 5vw;
+
+}
+
+
+
+
+.about-page-card-bottom-text-column{
+    width: 100%;
+    height: 40%;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'text-font';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-spacing: 2px;
+    padding: 1vw;
+    line-height: 17px;
+    margin: 0% 1vw;
+
+}
+
+
+
+
+.about-page-card-right-text-column{
+    width: 100%;
+    height: 40%;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'text-font';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    word-spacing: 2px;
+    padding: 1vw;
+    line-height: 17px;
+    margin: 0px 2vw ;
+}

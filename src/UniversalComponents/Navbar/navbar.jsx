@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './navbar.css'
 
 
@@ -14,7 +14,17 @@ import LetsTalk from './Letstalkbutton/letstalk'
 //importing Link, Route from react router dom
 import {Link, Route} from 'react-router-dom'
 
-function navbar() {
+
+//IMPORTING EMAIL POPUP
+import EmailPopUp from '../EmailPopUp/emailpopup'
+
+
+
+
+function Navbar() {
+
+    const [popup, setpopup] = useState(false);
+
     return (
         <div className='navbar-wrapper'>
             <ul className='navbar-links-wrapper'>
@@ -23,13 +33,13 @@ function navbar() {
                 </li>
                 
                  <li  className='navbar-link-wrapper'>
-                     <Link to='/about'>
-                     <span  style={{color:'gray'}} className='navbar-link-about-page'>ABOUT</span>
+                    <Link to='/'>
+                     <span style={{color:'gray'}} className='navbar-link-about-page'>HOME</span>
                      </Link>
                  </li>
                  <li className='navbar-link-wrapper'>
-                     <Link to=''>
-                     <span style={{color: 'gray'}} className='navbar-link-what-we-do-page'>WHAT I DO</span>
+                     <Link to='/about'>
+                     <span style={{color: 'gray'}} className='navbar-link-what-we-do-page'>ABOUT</span>
                      </Link>
                  </li>
                  <li className='navbar-link-wrapper'>
@@ -37,12 +47,15 @@ function navbar() {
                  </li>
 
             </ul>
+            <div className='email-popup-wrapper'>
+                     <EmailPopUp onClose={() => setpopup(false)} isOpen={popup}/>
+            </div>
 
             <div className='lets-talk-button'>
-                 <LetsTalk width={4} height={4}/>
+                 <LetsTalk  handleClick={() => setpopup(true)} width={4} height={4}/>
             </div>
         </div>
     )
 }
 
-export default navbar
+export default Navbar

@@ -19,3 +19,9 @@
     width: 100vw;
     height: 100vh;
 }
+
+
+
+.about-page-wrapper{
+    overflow: hidden;
+}

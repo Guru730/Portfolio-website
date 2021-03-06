@@ -1,0 +1,131 @@
+.email-form{
+    width: 60vw;
+    height: 80vh;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px rgb(114, 111, 111);
+    animation-name: MoveDown;
+    animation-duration: 400ms;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+
+.email-form-left-side{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    
+}
+
+
+.email-form-right-side{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    clip-path: polygon(0% 0%, 90% 10%, 100% 80%, 20% 100%);
+}
+
+.email-svg{
+    width: 25vw;
+    height: 50vh;
+}
+
+
+
+.send-message-email{
+    position: relative;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 1vw;
+    border: none;
+    background-color: rgb(229, 226, 226);
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(204, 204, 204) inset;
+}
+
+.send-message-email::placeholder {
+    position: absolute;
+    font-size: 12px;
+    color:rgb(153, 152, 152);
+    font-family: 'text-font';
+    font-weight: 700;
+
+}
+
+.send-email-button-wrapper{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.send-email-button{
+    width: 16vw;
+    height: 8vh;
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'text-font';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+
+.send-email-button:hover{
+    background-color: rgb(8, 212, 195);
+}
+
+
+
+
+
+.sender-email-wrapper{
+    display: flex;
+    width: 19vw;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.sender-email{
+    border-bottom: 1px solid rgb(196, 195, 195);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.sender-email-lable{
+    color: gray;
+    font-family: 'text-font';
+    font-size: 12px;
+}
+
+@keyframes MoveDown{
+    0%{
+        transform: translateY(-500px);
+
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './footer.css'
 
 
@@ -13,21 +13,31 @@ import Logo from '../../UniversalComponents/Navbar/Navbarlogo/navbarlogo'
 //importing linksrow
 import LinksRow from './FooterLinksRow/linksrow'
 
-function footer() {
+
+//IMPORTING EMAILPOPUP
+import EmailPopUp from '../EmailPopUp/emailpopup'
+
+function Footer() {
 
     const array = [{heading: 'ABOUT US', firstlink: 'About', secondlink: 'Projects', thirdlink: 'Skills', destinationfirst: '#', destinationsecond: '#', destinationthird: '#'},
     {heading: 'Follow me', firstlink:'Linkedin', secondlink: 'Github', thirdlink:'', destinationfirst: 'https://www.linkedin.com/in/gurshran-singh-02776119b/', destinationsecond:'https://github.com/Guru730', destinationthird: '#'},
     ];
 
+
+    const [Popup, setPopup] = useState(false)
+
     return (
         <div id='footer' className='footer-wrapper'>
+            <div className='footer-email-popup-wrapper'>
+               <EmailPopUp isOpen={Popup} onClose={() => setPopup(false)}/>
+            </div>
             <div className='footer'>
                 <div className='footer-upper-column'>
                 <div className='footer-heading-wrapper'>
                     Interseted in collaboration
                 </div>
                 <div className='footer-lets-talk-button-wrapper'>
-                   <LetsTalk width={8} height={6}/>
+                   <LetsTalk handleClick={() => setPopup(true)} width={8} height={6}/>
                 </div>
                 </div>
                 <div className='footer-bottom-column'>
@@ -59,4 +69,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer
