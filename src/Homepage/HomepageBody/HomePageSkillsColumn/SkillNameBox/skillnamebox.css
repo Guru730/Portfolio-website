@@ -1,0 +1,92 @@
+.skill-box{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    width: 50vw;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'text-font';
+}
+
+
+
+.skill-name-box-upper {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'text-font';
+    border-right: 1px solid   rgb(108, 97, 255);
+    border-bottom: 1px solid rgb(101, 91, 253) ;
+}
+
+
+.skill-name-box-down{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid   rgb(96, 85, 253);
+}
+
+
+
+
+#skill-name-one{
+    font-family: 'Monoton', cursive;
+}
+
+
+#skill-name-six{
+    border-right: none;
+}
+
+
+#skill-name-three{
+    font-family: 'fifth-column-text';
+    font-size: 10px;
+
+}
+
+#skill-name-six {
+    font-family: 'fourth-column-text';
+    
+}
+
+
+#skill-name-seven{
+    font-family: 'fifth-column-text';
+}
+
+#skill-name-nine {
+    font-family: 'sixth-column-text';
+}
+
+#skill-name-eight {
+    font-family: 'eighth-column-text';
+}
+
+#skill-name-twelve{
+    border-right: none;
+    font-family: 'fifth-column-typescript';
+}
+
+
+#skill-name-five{
+    font-family: 'skill-name-nodejs';
+}
+
+
+#skill-name-two{
+    font-family: 'skill-name-javascript';
+}
+
+#skill-name-eleven{
+    font-family: 'fifth-column-text';
+}
+
+#skill-name-ten {
+    font-family: 'skill-name-javascript';
+}

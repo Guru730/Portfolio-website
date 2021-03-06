@@ -10,6 +10,10 @@ import BigCard from './HomePageBiggerCard/bigcard'
 //importing projects cards
 import ProjectCards from './HomePageCards/homepagecards'
 
+
+//importing skills column
+import SkillsColumn from './HomePageSkillsColumn/skillscolumn'
+
 function homepagebody() {
     return (
         <div className='home-page-body-wrapper'>

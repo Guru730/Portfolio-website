@@ -1,0 +1,21 @@
+.about-page-navbar-ctn{
+    width: 50vw;
+    margin: 0px auto;
+}
+
+
+.about-page-body-ctn{
+    width: 100vw;
+    height: 160vh;
+    position: relative;
+    margin: 20vh 0px;
+
+}
+
+
+
+.about-page-footer-ctn {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}

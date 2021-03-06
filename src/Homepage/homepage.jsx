@@ -25,6 +25,11 @@ import SectionDivider from './HomePageHeader/SectionDivider/sectiondivider'
 //importing homebody
 import Homebody from './HomepageBody/homepagebody'
 
+
+
+//importing footer and skills column
+import SkillsColumn from './HomepageBody/HomePageSkillsColumn/skillscolumn'
+
 function homepage() {
     return (
         <div className='home-page-wrapper'>
@@ -42,7 +47,10 @@ function homepage() {
             <div className='home-page-body-wrapper'>
                <Homebody/>
             </div>
-        </div>
+            <div className='home-page-skills-and-footer-column'>
+                   <SkillsColumn/>
+            </div>
+        </div> 
     )
 }
 

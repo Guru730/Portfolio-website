@@ -23,7 +23,6 @@
     font-family: 'text-font';
     font-weight: 800;  
     letter-spacing: 2px;
-
 }
 
 
@@ -41,7 +40,7 @@
 
 
 .home-page-header-illustration-wrapper{
-    width: 43%;
+    width: 53%;
     display: flex;
     align-items: center;
     padding-left: 5vw;

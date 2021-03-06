@@ -1,0 +1,34 @@
+.about-page-headline-wrapper{
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-page-main-headline{
+    font-size: 30px;
+    height: 50%;
+    width: 50%;
+    font-family: 'text-font';
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: right;
+    padding: 2vw 4vw 2vw 0vw;
+}
+
+
+.about-page-sub-heading{
+    width: 50%;
+    height: 50%;
+    font-family: 'text-font';
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+    display: flex;
+    justify-content: left;
+    padding: 2vw 0vw 2vw 2vw;
+
+}

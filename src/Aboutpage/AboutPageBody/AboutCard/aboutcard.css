@@ -1,0 +1,19 @@
+.about-page-card-outter-wrapper{
+    position: absolute;
+    width: 60vw;
+    height: 140vh;
+    background-color:#6937ff;
+    right: 0%;
+    border-radius: 3vw 0px 0px 3vw;
+}
+
+
+.about-page-card-inner-card{
+    width: 50vw;
+    height: 80vh;
+    background-color: rgb(231, 229, 229);
+    transform: translate(-16vw, -5vw);
+    border-radius: 2vw;
+    box-shadow: 2px 2px 4px rgba(33, 31, 37, 0.658);
+}
+

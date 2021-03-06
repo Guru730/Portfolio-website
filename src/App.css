@@ -2,3 +2,78 @@
     font-family:'text-font';
     src: url(./assets/Arimo-Medium.ttf);
 }
+
+
+
+@font-face {
+    font-family: 'second-column-text';
+    src: url(./assets/skill-name-two.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'third-column-text';
+    src: url(./assets//skill-name-third.ttf);
+}
+
+
+
+
+@font-face {
+    font-family: 'fourth-column-text';
+    src: url(./assets/skill-name-fourth.ttf);
+}
+
+
+@font-face {
+    font-family: 'fifth-column-text';
+    src: url(./assets//skill-name-five.ttf);
+}
+
+
+
+
+@font-face {
+    font-family: 'sixth-column-text';
+    src: url(./assets/skill-name-nine.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'seventh-column-text';
+    src: url(./assets//skill-name-ten.ttf);
+}
+
+
+@font-face {
+    font-family: 'eighth-column-text';
+    src: url(./assets/skill-name-eleven.ttf);
+}
+
+
+@font-face {
+    font-family: 'skill-name-typescript';
+    src: url(./assets//skill-name-typscript.ttf);
+}
+
+
+@font-face {
+    font-family: 'skill-name-javascript';
+    src: url(./assets/skill-name-javascript.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'skill-name-nodejs';
+    src: url(./assets/skill-name-nodejs.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'skill-name-firebase';
+    src: url(./assets/skill-name-firebase.ttf);
+}
